@@ -18,9 +18,20 @@ npm run server
 
 # Screenshots
 
+# Logged User View.
 ![alt text](Dashboard_Desktop_view.png)
+
+# Default Mobile View
 ![alt text](Default_Mobile_view.png)
+
+# Login Desktop View
 ![alt text](Login_Desktop_view.png)
+
+# Registration Mobile View
 ![alt text](Signup_Mobile_view.png)
+
+# Login Mobile View
 ![alt text](Login_Mobile_view.png)
+
+# Validation
 ![alt text](Validation.png)
