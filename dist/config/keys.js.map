@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../server/config/keys.js"],"names":["mongoURI","JWT_SECRET"],"mappings":";;;;;kBAAe;AACXA,cAAW,sEADA;AAEXC,gBAAY;AAFD,C","file":"keys.js","sourcesContent":["export default {\n    mongoURI : 'mongodb://devesh:devesh2014@ds041248.mlab.com:41248/altiregistration',\n    JWT_SECRET: \"secretalti\"\n}"]}

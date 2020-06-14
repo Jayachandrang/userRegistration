@@ -1,0 +1,100 @@
+.signup-container form{
+    width:600px;
+    margin: auto;
+    padding: 10px 20px;
+}
+.signup-container form input:not([type='radio']){
+    margin: 20px 0;
+}
+.signup-container .form-wrapper{
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color: #0070ba !important;
+    border-color: #0070ba !important;
+}
+.position-relative {
+    display: flex;
+}
+.invalid-feedback {
+    display: block !important;
+    margin-top: -0.75rem !important;
+    font-size: 100% !important;
+}
+.label-session {
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 28px;
+}
+.field-session {
+    width: 80%;
+    float: right;
+}
+.radio-label-session {
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.radio-field-session {
+    width: 70%;
+    float: right;
+    margin-top: 15px;
+}
+.radio-field {
+    margin: 5px 20px;
+    height: 35px;
+}
+.select-box {
+    margin-top: 25px;
+}
+
+.submit-btn {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+  
+a {
+    color : #007bff;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.75rem + 2px) !important;
+}
+
+.navbar-toggler {
+    color: #007bff;
+    border: 1px solid #007bff !important;
+    padding: 5px 12px 11px !important;
+}
+
+@media screen and (max-width: 575px) {
+    .signup-container .form-wrapper{
+        border: none;
+    }
+    .signup-container form{
+        width: 100%;
+    }
+    .label-session {
+        width: 35%;
+        font-size: 20px;
+    }
+    .field-session {
+        width: 60%;
+    }
+
+    .radio-label-session {
+        width: 35%;
+        font-size: 20px;
+    }
+    .radio-field-session {
+        width: 50%;
+    }
+    .submit-btn {
+        width: 50%;
+    }
+}
